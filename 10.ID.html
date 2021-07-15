@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML - ID</title>
+        <meta charset="utf-8">
+        <style>
+            #topbar{
+                list-style-type:none;
+            }
+            #menu-item{
+                display:inline;
+                padding:16px;
+                background-color:lightblue;
+            }
+            .section{
+                height: 550px;
+                width: 100%;
+            }
+            #home-section{
+                background-color:lightpink;
+            }
+            #about-section{
+                background-color:lightcoral;
+            }
+            #contact-section{
+                background-color:lightgreen;
+            }
+        </style>
+    </head>
+    <body>
+      <ul id="topbar">
+          <li id="menu-item"><a href="#home-section">Home</a></li>
+          <li id="menu-item"><a href="#contact-section">Contact</a></li>
+          <li id="menu-item"><a href="#contact-section">Contact</a></li>
+      </ul>
+      <div class="section" id="home-section"> 
+            <h1>Home Section</h1>
+      </div>
+
+      <div class="section" id="about-section">
+        <h1>About Section</h1>
+      </div>
+
+      <div class="section" id="contact-section">
+        <h1>Contact Section</h1>
+      </div>
+    </body>
+</html> 
